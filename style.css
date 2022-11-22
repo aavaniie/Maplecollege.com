@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@200&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+.header1{
+	display: inline-block;
+	width: 100%;
+}
+#logo{
+	width: 40px;
+	padding: 15px;
+	float: left;
+}
+.header1 h1{
+	float: left;
+	padding: 22px 0px;
+}
+#login{
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin: 20px;
+	padding: 10px 30px;
+	background-color: #f5de7a;
+	border: none;
+	border-radius: 10px;
+}
+#login:hover{
+	background-color: #efbf38;
+}
+.flexbox{
+	margin-bottom: 200px;
+}
+.flexbox a h5:hover{
+	font-weight: bolder;
+	border-bottom: solid;
+	border-color: white;
+
+}
+.flexbox div{
+	border-radius: 20px;
+	display: inline-block;
+	float: left;
+	flex-wrap: wrap;
+	position: relative;
+	margin: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.aboutt{
+	height: 540px;
+	width: 300px;
+	background-image:url(img/hall.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+.aboutt h5{
+	padding-top: 250px;
+	padding-left: 105px;
+	float: left;
+	justify-content: left;
+	line-height: 1.5;
+	color: black;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	
+}
+.aboutt p{
+	padding: 20px;
+}
+.admission{
+	height: 200px;
+	width: 300px;
+	background-color: #f5de7a;
+}
+.admission h5{
+	padding-top: 130px;
+	padding-left: 30px;
+	float: left;
+	justify-content: left;
+	line-height: 1.5;
+	color: black;
+	font-weight: bold;
+}
+.departments{
+	height: 200px;
+	width: 300px;
+	/*background-color: #fa5300;*/
+	background-image: url(img/library.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+.departments h5{
+	padding-top: 130px;
+	padding-left: 30px;
+	float: left;
+	justify-content: left;
+	line-height: 1.5;
+	color: white;
+	
+}
+.administrations{
+	height: 200px;
+	width: 235px;
+	background-color: #df8500;
+	
+}
+.administrations h5{
+	padding-top: 130px;
+	padding-left: 30px;
+	float: left;
+	justify-content: left;
+	line-height: 1.5;
+	color: white;
+}
+.academics{
+	height: 300px;
+	width: 300px;
+	/*background-color: #fa0643;*/
+	background-image: url(img/class.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	
+}
+.academics h5{
+	padding-top: 230px;
+	padding-left: 30px;
+	float: left;
+	justify-content: left;
+	line-height: 1.5;
+	color: white;
+}
+.contact{
+	height: 150px;
+	width: 300px;
+	background-color: #e2e2e2;
+}
+
+.contact h5{
+	padding-top: 80px;
+	padding-left: 30px;
+	float: left;
+	justify-content: left;
+	line-height: 1.5;
+	color: black;
+}
+.placements{
+	height: 150px;
+	width: 235px;
+	background-image: url(img/green.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+.placements h5{
+	padding-top: 80px;
+	padding-left: 30px;
+	float: left;
+	justify-content: left;
+	line-height: 1.5;
+	color: white;
+	
+}
+.more{
+	height: 110px;
+	width: 575px;
+	background-color: black;
+}
+.more h5{
+	padding-top: 40px;
+	padding-left: 30px;
+	float: left;
+	justify-content: left;
+	line-height: 1.5;
+	color: white;
+}
+.news{
+	float: left;
+	margin: 50px;
+}
+.news h2{
+	padding: 10px;
+}
+.news ul li{
+	padding: 10px;
+	list-style-type: none;
+}
+.news ul li a{
+	text-decoration: none;
+	color: black;
+}
+.news ul li a:hover{
+	font-weight: bolder;
+	color: saddlebrown;
+}

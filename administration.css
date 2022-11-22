@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@200&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+.header1{
+	display: inline-block;
+	width: 100%;
+}
+.header1 h1{
+	float: left;
+	padding: 22px 0px;
+}
+#logo{
+	width: 40px;
+	float: left;
+	margin: 15px;
+}
+#login{
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin: 20px;
+	padding: 10px 30px;
+	background-color: #f5de7a;
+	border: none;
+	border-radius: 10px;
+}
+#login:hover{
+	background-color: #efbf38;
+}
+.head{
+	border: none;
+	margin: 50px;
+}
+.head h1{
+	background: #9a4c28 ;
+	color: white;
+	width: 100%;
+	padding: 5px 30px;
+	/*margin: 30px 20px;*/
+	text-align: left;
+	border: none;
+}
+.head p{
+	background-color: beige;
+	text-align: justify;
+	padding: 50px;
+	line-height: 2;
+	font-size: 15px;
+	font-weight: bold;
+}
+.page2{
+	border: none;
+	text-align: center;
+}
+.page2 h3{
+	font-family: monospace;
+	font-size: 20px;
+}
+.page2 ul li{
+	display: inline-block;
+}
+.page2 ul li img{
+	width: 40px;
+	float: left;
+	padding: 20px 5px;
+}

@@ -1,0 +1,96 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.about{
+	margin: 50px;
+	padding: 20px;
+	text-align: justify;
+}
+.about2{
+	display: flex;
+}
+.about h1{
+	color:#9a4c28 ;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin: 30px;
+}
+.about p{
+	padding: 20px;
+	text-indent: 50px;
+	border-radius: 10px;
+	float: left;
+	font-weight: bold;
+	color: black;
+}
+#clg{
+	height: 300px;
+	width: 300px;
+	float: right;
+	padding: 30px;
+	border-radius: 20%;
+}
+
+.vision{
+	margin: 50px 300px;
+	border: none;
+	border-radius: 20px;
+	background-color: #f7f9fc;
+	padding: 20px;
+}
+.vision h2{
+	color:black ;
+	text-align: center;
+	padding: 10px;
+}
+.vision p{
+	padding: 20px;
+	text-indent: 50px;
+	font-weight: bold;
+	color: black;
+}
+.mission{
+	margin: 50px 300px;
+	border: none;
+	border-radius: 20px;
+	background-color: #f7f9fc;
+	padding: 20px;
+}
+.mission h2{
+	color:black ;
+	text-align: center;
+	padding: 10px;
+}
+.mission p{
+	padding: 20px;
+	text-indent: 50px;
+	font-weight: bold;
+	color: black;
+
+}
+.photogallery{
+	margin-bottom: 100px;
+}
+.photogallery h2{
+	color:#9a4c28 ;
+	text-align: center;
+	padding: 30px;
+}
+.photos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.photos img{
+	width: 300px;
+	height: 200px;
+	padding: 20px;
+}
+.photos h5{
+	text-align: center;
+	text-transform: uppercase;
+}

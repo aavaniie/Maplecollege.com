@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@200&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+.header1{
+	display: inline-block;
+	width: 100%;
+}
+.header1 h1{
+	float: left;
+	padding: 22px 0px;
+}
+#logo{
+	width: 40px;
+	float: left;
+	margin: 15px;
+}
+#login{
+	color: black;
+	font-weight: bold;
+	float: right;
+	margin: 20px;
+	padding: 10px 30px;
+	background-color: #f5de7a;
+	border: none;
+	border-radius: 10px;
+}
+#login:hover{
+	background-color: #efbf38;
+}
+.courses{
+	background-color: beige;
+	margin: 30px;
+}
+.courses h2{
+	color: white;
+	background-color:#9a4c28 ;
+	text-align: center;
+	padding: 5px;
+	border: 20px;
+}
+.mathematics{
+	margin: 20px;
+}
+.biology{
+	margin: 20px;
+}
+.chemistry{
+	margin: 20px;
+}
+.physics{
+	margin: 20px;
+}
+.boxes{
+	display: flex;
+	margin: 30px;
+}
+.boxes h3{
+	color:#925f17 ;
+	font-weight:bold ;
+	text-align: center;
+	margin: 20px;
+}
+.mathematics p{
+	background-color:#efbf38;
+	padding: 20px;
+	text-indent: 50px;
+}
+.biology p{
+	background-color:#efbf38;
+	padding: 20px;
+	text-indent: 50px;
+}
+.chemistry p{
+	background-color:#efbf38;
+	padding: 20px;
+	text-indent: 50px;
+}
+.physics p{
+	background-color:#efbf38;
+	padding: 20px;
+	text-indent: 50px;
+}
+.page2{
+	border: none;
+	text-align: center;
+}
+.page2 h3{
+	font-family: monospace;
+	font-size: 20px;
+}
+.page2 ul li{
+	display: inline-block;
+}
+.page2 ul li img{
+	width: 40px;
+	float: left;
+	padding: 20px 5px;
+}
+.boxes ul{
+	padding: 10px;
+	background-color:#efbf38 ;
+}
+.boxes ul li{
+	list-style-type: square;
+	list-style-position: inside;
+	padding:5px 20px;
+}
+.boxes ul li a:hover{
+	font-weight: bold;
+	padding: 5px;
+}
+.boxes ul li a{
+	text-decoration: none;
+	color: black;
+}
